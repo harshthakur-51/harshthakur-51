@@ -12,10 +12,11 @@ edge ML, and cost-conscious embedded hardware.
 
 | Project | Focus | Stack |
 | --- | --- | --- |
-| [OTDR Fault Classifier](https://github.com/harshthakur-51/otdr-fault-classifier) | Eight-class optical fiber fault detection from synthetic OTDR traces using an edge-friendly neural classifier | Python, signal features, ANN |
-| [CGM Glucose Trend Predictor](https://github.com/harshthakur-51/cgm-glucose-trend-predictor) | Short-horizon glucose trend regression with cohort-safe evaluation and baseline comparison | Python, regression, biomedical data |
+| [Smart Heater Control System](https://github.com/harshthakur-51/smart-heater-controlsystem) | STM8-based smart heater redesign with isolated flyback SMPS, NTC feedback, display control, motor output, and optotriac/triac heater switching | STM8, Embedded C, SMPS, Triac Control |
 | [RS-485 Spindle Monitoring System](https://github.com/harshthakur-51/rs485-spindle-monitoring-system) | Real-time dashboard simulation for 10,608 textile spindles across a distributed bus network | RS-485 architecture, JavaScript, operations UI |
 | [ESP32 Therapy Device Controller](https://github.com/harshthakur-51/esp32-therapy-device-controller) | Safety-oriented embedded controller for heating, cooling, and vibration therapy modes | ESP32, Embedded C++, PlatformIO |
+| [OTDR Fault Classifier](https://github.com/harshthakur-51/otdr-fault-classifier) | Eight-class optical fiber fault detection from synthetic OTDR traces using an edge-friendly neural classifier | Python, signal features, ANN |
+| [CGM Glucose Trend Predictor](https://github.com/harshthakur-51/cgm-glucose-trend-predictor) | Short-horizon glucose trend regression with cohort-safe evaluation and baseline comparison | Python, regression, biomedical data |
 | [Non-Invasive Haemoglobin Estimator](https://github.com/harshthakur-51/non-invasive-haemoglobin-estimator) | Public RGB-feature regression demonstration with responsible-use boundaries | Python, regression, biomedical AI |
 
 ## Current Research
