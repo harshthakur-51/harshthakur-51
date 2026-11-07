@@ -2,9 +2,9 @@
 
 **Electronics and Communication Engineer | Biomedical Engineering | Embedded Systems and Analog IC Design**
 
-I build sensing, control, and signal-processing systems that move from circuit
-concepts to measurable outcomes: biomedical interfaces, industrial monitoring,
-edge ML, and cost-conscious embedded hardware.
+I build sensing, control, and diagnostic systems across embedded hardware,
+biomedical electronics, and industrial monitoring. My current primary project
+is AeroTrace, an explainable debugger for simulated aircraft-system failures.
 
 [LinkedIn](https://linkedin.com/in/harsh-thakur51) | [Email](mailto:harshu.t2003@gmail.com)
 
@@ -12,14 +12,19 @@ edge ML, and cost-conscious embedded hardware.
 
 | Project | Focus | Stack |
 | --- | --- | --- |
-| [Smart Heater Control System](https://github.com/harshthakur-51/smart-heater-controlsystem) | STM8-based smart heater redesign with isolated flyback SMPS, NTC feedback, display control, motor output, and optotriac/triac heater switching | STM8, Embedded C, SMPS, Triac Control |
-| [RS-485 Spindle Monitoring System](https://github.com/harshthakur-51/rs485-spindle-monitoring-system) | Real-time dashboard simulation for 10,608 textile spindles across a distributed bus network | RS-485 architecture, JavaScript, operations UI |
-| [ESP32 Therapy Device Controller](https://github.com/harshthakur-51/esp32-therapy-device-controller) | Safety-oriented embedded controller for heating, cooling, and vibration therapy modes | ESP32, Embedded C++, PlatformIO |
+| **[AeroTrace](https://github.com/harshthakur-51/aerotrace)** | **Primary focus.** Explainable diagnosis of cascading and overlapping faults in a FlightGear A320 simulation, with counterfactual tests and investigation of masked failures | Python, FlightGear, causal models, telemetry replay |
 | [OTDR Fault Classifier](https://github.com/harshthakur-51/otdr-fault-classifier) | Eight-class optical fiber fault detection from synthetic OTDR traces using an edge-friendly neural classifier | Python, signal features, ANN |
-| [CGM Glucose Trend Predictor](https://github.com/harshthakur-51/cgm-glucose-trend-predictor) | Short-horizon glucose trend regression with cohort-safe evaluation and baseline comparison | Python, regression, biomedical data |
-| [Non-Invasive Haemoglobin Estimator](https://github.com/harshthakur-51/non-invasive-haemoglobin-estimator) | Public RGB-feature regression demonstration with responsible-use boundaries | Python, regression, biomedical AI |
+| [RS-485 Spindle Monitoring System](https://github.com/harshthakur-51/rs485-spindle-monitoring-system) | Real-time dashboard simulation for 10,608 textile spindles across a distributed bus network | RS-485 architecture, JavaScript, operations UI |
+| [Smart Heater Control System](https://github.com/harshthakur-51/smart-heater-controlsystem) | STM8-based smart heater redesign with isolated flyback SMPS, NTC feedback, display control, motor output, and optotriac/triac heater switching | STM8, Embedded C, SMPS, Triac Control |
+| [ESP32 Therapy Device Controller](https://github.com/harshthakur-51/esp32-therapy-device-controller) | Safety-oriented embedded controller for heating, cooling, and vibration therapy modes | ESP32, Embedded C++, PlatformIO |
 
 ## Current Research
+
+**AeroTrace — Causal Failure Investigation**  
+Developing executable causal models to investigate overlapping propulsion,
+electrical, and hydraulic faults in the FlightGear A320. The work examines
+which explanations fit recorded telemetry, which additional failures may be
+masked, and which passive observations could resolve uncertainty.
 
 **Low-Noise Amplifier for Neural Recording**  
 Designed and simulated a neural recording LNA using an NMOS CVF OTA in UMC
@@ -44,9 +49,10 @@ inference.
 `Embedded C` `Python` `MATLAB` `STM8` `ESP32` `Raspberry Pi` `RS-485`
 `I2C` `SPI` `UART` `PWM` `ADC/DAC` `LVGL` `Altium Designer`
 `Cadence Virtuoso` `Spectre` `CMOS 180 nm` `OTA` `LNA` `OpenCV`
-`Microsoft Azure AI` `AWS`
+`Microsoft Azure AI` `AWS` `FlightGear` `Causal Modelling`
 
 ## Focus Areas
 
-Biomedical electronics, low-noise neural interfaces, industrial automation,
-embedded product engineering, PCB design, and edge-deployable machine learning.
+Explainable fault diagnosis, aircraft-system simulation, biomedical electronics,
+low-noise neural interfaces, industrial automation, embedded product engineering,
+PCB design, and edge-deployable machine learning.
